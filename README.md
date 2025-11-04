@@ -1,1 +1,1 @@
-Descripcion genral del proyecto:
+Descripcion general del proyecto:
