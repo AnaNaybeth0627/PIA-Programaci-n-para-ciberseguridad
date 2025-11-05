@@ -84,16 +84,34 @@ Python 3.10+, librerías estándar (re, datetime, json, logging) y entorno local
 
 
 -----------------------
-# Tarea 3 (Titulo):
+# Tarea 3: Detección de procesos sospechosos en ejecución
 
-Propósito:
-Función, rol o área de la ciberseguridad relacionada: 
+Propósito: Monitorear y identificar procesos del sistema que presenten características sospechosas o maliciosas basándose en patrones de comportamiento y consumo de recursos.
+Función, rol o área de la ciberseguridad relacionada: EDR (Endpoint Detection and Response) - Análisis de comportamiento de procesos. 
 Entradas esperadas:
-Salidas esperadas:
-Descripción del procedimiento:
-Complejidad técnica:
-Controles éticos:
-Dependencias:
+- Lista de procesos en ejecución del sistema
+
+- Patrones de procesos sospechosos (ej: nombres similares a system32, alto consumo de CPU, múltiples instancias)
+
+- Umbrales de detección configurables
+
+Salidas esperadas: Archivo procesos_sospechosos.json con detalles de cada proceso detectado:
+
+json
+{
+  "pid": 1234,
+  "nombre": "svchost.exe",
+  "consumo_cpu": 85.5,
+  "usuario": "system",
+  "riesgo": "medio",
+  "razon": "Alto consumo de recursos"
+}
+Reporte en tiempo real en consola de procesos activos monitoreados
+
+Descripción del procedimiento: El sistema obtendrá periódicamente la lista de procesos en ejecución, analizará su comportamiento (consumo de recursos, nombre, usuario) y comparará contra patrones predefinidos para identificar actividades sospechosas. 
+Complejidad técnica: Obtención de métricas de procesos en tiempo real, Análisis de patrones y comportamientos, Gestión de intervalos de monitoreo, Clasificación de niveles de riesgo. 
+Controles éticos: Solo monitoreo de procesos en ambiente controlado con datos sintéticos, sin interrumpir procesos del sistema real.
+Dependencias: Python 3.10+, librerías: psutil, time, json
 
 -----------------------
 
@@ -117,6 +135,8 @@ Dependencias:
 Ana Naybeth Medina Perez| Lectura y registro de archivos criticos
 
 Angel Gabriel Cruz Velazquez| Detección de intentos de acceso sospechosos en logs
+
+Karyme Gisel González Aguillón| Detección de procesos sospechosos en ejecución
 
 ### Declaracion Etica y Legal: 
 
