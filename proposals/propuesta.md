@@ -5,7 +5,7 @@
 ##Fichas Tecnicas##
 
 -----------------------
-#Tarea 1 (Titulo): Lectura y Registro de archivos criticos
+#Tarea 1 (Lectura y Registro de archivos criticos):
 
 Función, rol o área de la ciberseguridad relacionada: Modulo encargado en la deteccion de cambios en archivos criticos del sistema y del registro de eventos con fecha y hora.
 
@@ -25,7 +25,7 @@ Dependencias: Sistema operativo con permisos adecuados y herramienta de registro
 
 
 -----------------------
-#Tarea 2 (Titulo): Detección de intentos de acceso sospechosos en logs
+#Tarea 2 (Detección de intentos de acceso sospechosos en logs): El módulo busca detectar intentos de acceso no autorizados mediante el análisis de logs. Permite identificar patrones de fallos repetidos para prevenir ataques de fuerza bruta y accesos indebidos. 
 
 Función, rol o área de la ciberseguridad relacionada: SOC – Monitoreo y detección de intentos de acceso no autorizados en registros del sistema.
 
