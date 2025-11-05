@@ -21,11 +21,9 @@ ejemplo del archivo de registro .txt
 [2025-11-05 15:30:22] Modificado: /home/usuario/documentos/ejemplo.txt
 
 Detalles del cambio:
-
 -linea 7 modificada: "Este es un ejemplo" → "Este no es un ejemplo"
 
 [2025-11-05 15:31:05] Creado: /home/usuario/imagenes/ejemplo2.png
-
 [2025-11-05 15:32:10] Eliminado: /home/usuario/scripts/ejemplo3.sh
 
 Descripción del procedimiento: Se leen los archivos criticos y anota cualquier cambio detectado en un archivo de texto, indicando el archivo modificado con su fecha y hora del cambio.
