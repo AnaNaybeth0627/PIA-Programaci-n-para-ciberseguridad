@@ -121,16 +121,38 @@ Dependencias: Python 3.10+, librerías: psutil, time, json
 
 
 -----------------------
-# Tarea 4 (Titulo):
+# Tarea 4 Análisis de espacio en disco y almacenamiento:
 
-Propósito: 
-Función, rol o área de la ciberseguridad relacionada: 
+Propósito: Monitorear el uso de espacio en disco para detectar crecimientos anómalos o comportamientos inusuales que puedan indicar generación de archivos sospechosos, copias no autorizadas que afecten la seguridad y el rendimiento del sistema.
+
+Función, rol o área de la ciberseguridad relacionada: Blue team - Detección tempana de incidentes de archivos maliciosos o logs excesivos.
+
 Entradas esperadas:
+-Directorio base del sistema (/home/usuario/).
+-Estado previo del espacio ocupado para realizar la comparación (estado_disco_anterior.json).
+-Parametro de umbral configurable es el porcentaje de uso o incremento maximo permitido.
+
 Salidas esperadas:
-Descripción del procedimiento:
-Complejidad técnica:
-Controles éticos:
+-Archivo de reporte reporte_espacio_disco.json.
+-Archivo que resume reporte_disco.md con alertas clave para el equipo de seguridad.
+
+Ejemplo:
+Uso total del disco: 45.6 GB / 50 GB (91%)
+Incremento detectado: +5.2 GB desde el ultimo registro
+Carpeta con mayor crecimiento: /home/usuario/descargas/
+Estado general: ALERTA
+
+Descripción del procedimiento:El script se inicia obteniendo el estado actual del espacio total y disponible del disco. Luego lee el estado_disco_anterior.json. Analiza el crecimiento absoluto y relativo de cada directorio, comparando los resultados del estado actual contra el estado anterior. Si el aumento de espacio ocupado supera el umbral establecido, el script genera una alerta detallada. Este proceso de comparación de estados y el registro de la alerta se guardan inmediatamente en los archivos de salida JSON.También se realiza una actualización del archivo estado_disco_anterior.json para la siguiente ejecución.
+
+Complejidad técnica:Lectura y análisis del sistema de archivos, comparación de estados previos de almacenamiento, y automatización del monitoreo con Python utilizando librerías estándar para recopilar métricas del disco y generar reportes estructurados.
+
+Controles éticos:El monitoreo debe realizarse únicamente en entornos controlados y sobre directorios autorizados, como entornos de laboratorio o carpetas de uso general.
+
 Dependencias:
+-Python 3.10+
+-Librerías estándar: os, json, time, shutil.
+-Permisos de lectura sobre los directorios a analizar.
+-Archivo de configuración con los umbrales de alerta.
 
 -----------------------
 
@@ -141,6 +163,8 @@ Ana Naybeth Medina Perez| Lectura y registro de archivos criticos
 Angel Gabriel Cruz Velazquez| Detección de intentos de acceso sospechosos en logs
 
 Karyme Gisel González Aguillón| Detección de procesos sospechosos en ejecución
+
+Jesus Alejandro Ramirez Baltazar | Análisis de espacio en disco y almacenamiento
 
 ### Declaracion Etica y Legal: 
 
