@@ -5,7 +5,7 @@
 ##Fichas Tecnicas##
 
 -----------------------
-#Tarea 1 (Titulo):
+#Tarea 1 (Titulo): Lectura y Registro de archivos criticos
 
 Función, rol o área de la ciberseguridad relacionada: 
 Entradas esperadas:
@@ -61,6 +61,7 @@ Dependencias:
 
 ##Roles del equipo:
 
+Ana Naybeth Medina Perez|Lectura y registro de archivos criticos
 
 ##Declaracion Etica y Legal:
 
