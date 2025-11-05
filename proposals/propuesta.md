@@ -25,7 +25,7 @@ Dependencias: Sistema operativo con permisos adecuados y herramienta de registro
 
 
 -----------------------
-#Tarea 2 (Detección de intentos de acceso sospechosos en logs): El módulo busca detectar intentos de acceso no autorizados mediante el análisis de logs. Permite identificar patrones de fallos repetidos para prevenir ataques de fuerza bruta y accesos indebidos. 
+#Tarea 2 Detección de intentos de acceso sospechosos en logs: El módulo busca detectar intentos de acceso no autorizados al sistema. Esto se logra mediante el análisis de archivos de registro (logs) para identificar patrones de intentos fallidos y accesos sospechosos.
 
 Función, rol o área de la ciberseguridad relacionada: SOC – Monitoreo y detección de intentos de acceso no autorizados en registros del sistema.
 
