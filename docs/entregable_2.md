@@ -8,7 +8,9 @@ presione la tecla enter en caso de querer detener el proceso, una vez presionada
 eventos ocurridos, incluyendo:
 
   -El tipo de evento(Created, Changed, Deleted, Renamed)
+  
   -La hora y fecha en la que se realizo
+  
   -La ruta del archivo afectado
 
 Finalmente se generaran registros de todos los eventos en formato .txt y JSON. Cada evento registrado incluye información clave
