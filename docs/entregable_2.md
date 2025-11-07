@@ -7,7 +7,9 @@ sufriendo un cambio en el sistema, esto se realizara en tiempo real, por lo que 
 presione la tecla enter en caso de querer detener el proceso, una vez presionada la tecla se mostrara en pantalla todos los
 eventos ocurridos, incluyendo:
 
-  -El tipo de evento(Created, Changed, Deleted, Renamed)                                                                           -La hora y fecha en la que se realizo                                                                                            -La ruta del archivo afectado
+  -El tipo de evento(Created, Changed, Deleted, Renamed)
+  -La hora y fecha en la que se realizo
+  -La ruta del archivo afectado
 
 Finalmente se generaran registros de todos los eventos en formato .txt y JSON. Cada evento registrado incluye información clave
 en formato JSON line, cumpliendo con los estándares de logging del proyecto:
