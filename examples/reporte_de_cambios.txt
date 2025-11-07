@@ -1,0 +1,41 @@
+2025-11-06 22:19:15  Created    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\835c2f3b-10aa-422f-9be7-193cb047e7f7.tmp
+2025-11-06 22:19:15  Created    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\15210aa1-c25c-4aaa-bc3a-73a8ef4d8bad.tmp
+2025-11-06 22:19:15  Created    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Local State~RF10151c7.TMP
+2025-11-06 22:19:15  Created    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF10151c7.TMP
+2025-11-06 22:19:15  Created    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:15  Created    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\835c2f3b-10aa-422f-9be7-193cb047e7f7.tmp
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\15210aa1-c25c-4aaa-bc3a-73a8ef4d8bad.tmp
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default
+2025-11-06 22:19:15  Changed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Breadcrumbs
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:15  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:16  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:16  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:16  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:16  Changed    C:\Users\anana\reporte_de_cambios.json
+2025-11-06 22:19:16  Changed    C:\Users\anana\reporte_de_cambios.txt
+2025-11-06 22:19:16  Deleted    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Local State~RF10151c7.TMP
+2025-11-06 22:19:16  Renamed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Local State~RF10151c7.TMP
+2025-11-06 22:19:16  Deleted    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Local State~RF10151c7.TMP
+2025-11-06 22:19:16  Deleted    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF10151c7.TMP
+2025-11-06 22:19:16  Deleted    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF10151c7.TMP
+2025-11-06 22:19:16  Renamed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Local State
+2025-11-06 22:19:16  Renamed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\Preferences~RF10151c7.TMP
+2025-11-06 22:19:16  Renamed    C:\Users\anana\AppData\Local\Microsoft\Edge\User Data\Default\Preferences
