@@ -17,10 +17,15 @@ Finalmente se generaran registros de todos los eventos en formato .txt y JSON. C
 en formato JSON line, cumpliendo con los estándares de logging del proyecto:
 
   -timestamp: fecha y hora del evento
+  
   -run_id: identificador único de ejecución
+  
   -module: nombre del módulo (FileWatcher)
+  
   -level: nivel de registro (INFO)
+  
   -event: tipo de evento (Created, Changed, Deleted, Renamed)
+  
   -details: ruta completa del archivo afectado
 
 Este diseño garantiza evidencia reproducible, con historial completo de cambios, y permite su integración directa con el flujo
