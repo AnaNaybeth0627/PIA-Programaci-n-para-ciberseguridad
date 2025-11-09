@@ -10,6 +10,6 @@
   "rutas_control": {
     "carpeta_estados": "../../examples/",
     "archivo_estado_previo": "estado_disco_anterior.json",
-    "archivo_log_salida": "Salida_estado_disco.json"
+    "archivo_log_salida": "Salida_estado_disco.jsonl"
   }
 }
