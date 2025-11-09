@@ -1,0 +1,15 @@
+
+{
+  "version": "1.0",
+  "tarea": "4 - Analisis de espacio en disco y almacenamiento",
+  "template": "Monitor de espacio en disco del sistema",
+  "instrucciones": {
+    "directorio_base": "C:\\Users",
+    "umbral_alerta_porcentaje": 10
+  },
+  "rutas_control": {
+    "carpeta_estados": "../../examples/",
+    "archivo_estado_previo": "estado_disco_anterior.json",
+    "archivo_log_salida": "Salida_estado_disco.json"
+  }
+}

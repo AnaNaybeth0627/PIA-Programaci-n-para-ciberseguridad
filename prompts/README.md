@@ -1,0 +1,1 @@
+Descripción de la función y valores de configuración (por ejemplo, ruta del directorio a analizar y umbral de alerta).
