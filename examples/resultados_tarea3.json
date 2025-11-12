@@ -1,0 +1,82 @@
+[
+  {
+    "pid": 3884,
+    "nombre": "ShellExperienceHost.exe",
+    "usuario": "DESKTOP-K4PHR2Q\\Lenovo",
+    "es_sospechoso": true,
+    "confianza_ia": 0.78,
+    "caracteristicas": {
+      "cpu_percent": 0.0,
+      "memory_mb": 58.96,
+      "num_threads": 25,
+      "tipo_usuario": "user",
+      "longitud_nombre": 23
+    },
+    "timestamp": "2025-11-11T22:24:42.343932",
+    "tarea": "Tarea3_Deteccion_Procesos"
+  },
+  {
+    "pid": 5464,
+    "nombre": "SearchIndexer.exe",
+    "usuario": "NT AUTHORITY\\SYSTEM",
+    "es_sospechoso": true,
+    "confianza_ia": 0.8,
+    "caracteristicas": {
+      "cpu_percent": 0.0,
+      "memory_mb": 53.34,
+      "num_threads": 19,
+      "tipo_usuario": "system",
+      "longitud_nombre": 17
+    },
+    "timestamp": "2025-11-11T22:24:42.790155",
+    "tarea": "Tarea3_Deteccion_Procesos"
+  },
+  {
+    "pid": 8276,
+    "nombre": "backgroundTaskHost.exe",
+    "usuario": "DESKTOP-K4PHR2Q\\Lenovo",
+    "es_sospechoso": true,
+    "confianza_ia": 0.76,
+    "caracteristicas": {
+      "cpu_percent": 0.0,
+      "memory_mb": 25.95,
+      "num_threads": 15,
+      "tipo_usuario": "user",
+      "longitud_nombre": 22
+    },
+    "timestamp": "2025-11-11T22:24:43.477941",
+    "tarea": "Tarea3_Deteccion_Procesos"
+  },
+  {
+    "pid": 11204,
+    "nombre": "Microsoft.Media.Player.exe",
+    "usuario": "DESKTOP-K4PHR2Q\\Lenovo",
+    "es_sospechoso": true,
+    "confianza_ia": 0.76,
+    "caracteristicas": {
+      "cpu_percent": 0.0,
+      "memory_mb": 1.29,
+      "num_threads": 14,
+      "tipo_usuario": "user",
+      "longitud_nombre": 26
+    },
+    "timestamp": "2025-11-11T22:24:44.040650",
+    "tarea": "Tarea3_Deteccion_Procesos"
+  },
+  {
+    "pid": 13720,
+    "nombre": "OneDrive.Sync.Service.exe",
+    "usuario": "DESKTOP-K4PHR2Q\\Lenovo",
+    "es_sospechoso": true,
+    "confianza_ia": 0.78,
+    "caracteristicas": {
+      "cpu_percent": 0.0,
+      "memory_mb": 3.05,
+      "num_threads": 16,
+      "tipo_usuario": "user",
+      "longitud_nombre": 25
+    },
+    "timestamp": "2025-11-11T22:24:44.294208",
+    "tarea": "Tarea3_Deteccion_Procesos"
+  }
+]
