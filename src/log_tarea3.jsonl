@@ -1,2 +1,0 @@
-{"timestamp": "2024-01-15T10:30:00", "module": "Tarea3_Procesos", "level": "INFO", "event": "Inicializado Detector de Procesos Sospechosos con IA"}
-{"timestamp": "2024-01-15T10:30:05", "module": "Tarea3_Procesos", "level": "WARNING", "event": "Proceso sospechoso detectado: suspicious_process.exe (PID: 1234) - Confianza: 0.892"}{"timestamp": "2025-11-11T22:24:44.686383", "module": "Tarea3_Procesos", "level": "INFO", "event": "Ejecución completada", "details": {"procesos_analizados": "150+", "procesos_sospechosos_detectados": 5, "tarea": "Detección de Procesos Sospechosos"}}
