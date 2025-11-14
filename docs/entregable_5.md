@@ -1,8 +1,8 @@
-Entregable 2 - Tarea 2: Detección de Intentos Fallidos de Acceso
+Entregable 5 - Tarea 2: Detección de Intentos Fallidos de Acceso
 Descripción Específica:
 Implementación de un sistema en Python que analiza archivos de logs sintéticos para identificar intentos fallidos de acceso al sistema y registrar eventos sospechosos.
 
-Características Analizadas:
+##Características Analizadas:
 
 Número de intentos fallidos por IP
 
@@ -10,7 +10,7 @@ Patrón de múltiples fallos consecutivos (3 o más)
 
 Usuario afectado por los intentos fallidos
 
-Archivos de Salida Generados:
+##Archivos de Salida Generados:
 ### `output_tarea2.json`
 
 [
@@ -35,8 +35,8 @@ Archivos de Salida Generados:
 ]
 
 
-Reporte Resumido Generado:
-reporte_tarea2.md
+##Reporte Resumido Generado:
+### `reporte_tarea2.md`
 
 Total de intentos fallidos: 7
 
