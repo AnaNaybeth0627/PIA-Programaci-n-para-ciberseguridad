@@ -1,36 +1,35 @@
-# Entregable 4 - Tarea 2: Detección de Intentos de Acceso Sospechosos
+# Entregable 4 - Tarea 3: Detección de Procesos Sospechosos con IA
 
 ## Descripción Específica
-Implementación completa del sistema de análisis de logs sintéticos para identificar intentos fallidos de acceso al sistema. El script detecta patrones de múltiples intentos fallidos desde la misma IP y registra eventos sospechosos.
+Implementación completa del sistema de detección de procesos sospechosos en ejecución utilizando inteligencia artificial (Random Forest) para identificar patrones maliciosos basados en comportamiento.
 
-## Características Analizadas
-1. **Número de intentos fallidos** por IP (>=3 fallidos genera alerta)
-2. **IP origen** del intento de acceso
-3. **Usuario** intentando acceder
-4. **Timestamp** del evento
-5. **Severidad** del evento (ej. medium)
+## Características Analizadas por la IA
+1. **Uso de CPU** (>70% considerado sospechoso)
+2. **Consumo de memoria** (>300MB alerta)
+3. **Número de hilos** (>15 hilos sospechoso)
+4. **Tipo de usuario** (System/Admin más riesgosos)
+5. **Longitud del nombre** (Nombres largos sospechosos)
+6. **Proceso padre** (Procesos hijos de cmd/powershell)
 
 ## Archivos de Salida Generados
 
-### `output_tarea2.json`
+### `resultados_tarea3.json`
 ```json
 [
   {
-    "timestamp": "2025-11-05T03:21:17",
-    "source_ip": "192.168.1.12",
-    "user": "root",
-    "event": "multiple_failed_logins",
-    "severity": "medium",
-    "failed_attempts": 3,
-    "tarea": "Tarea2_Deteccion_Intentos"
-  },
-  {
-    "timestamp": "2025-11-05T03:23:06",
-    "source_ip": "192.168.1.15",
-    "user": "user1",
-    "event": "multiple_failed_logins",
-    "severity": "medium",
-    "failed_attempts": 3,
-    "tarea": "Tarea2_Deteccion_Intentos"
+    "pid": 1234,
+    "nombre": "suspicious_process.exe",
+    "usuario": "SYSTEM",
+    "es_sospechoso": true,
+    "confianza_ia": 0.892,
+    "caracteristicas": {
+      "cpu_percent": 85.2,
+      "memory_mb": 356.7,
+      "num_threads": 25,
+      "tipo_usuario": "system",
+      "longitud_nombre": 28
+    },
+    "timestamp": "2024-01-15T10:30:00",
+    "tarea": "Tarea3_Deteccion_Procesos"
   }
 ]
