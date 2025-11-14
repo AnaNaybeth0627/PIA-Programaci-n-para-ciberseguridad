@@ -1,4 +1,4 @@
-function LecturaRegistro { 
+function Invoke-LecturaRegistro { 
     $watcher = New-Object System.IO.FileSystemWatcher
     $watcher.Path = "$env:USERPROFILE"
     $watcher.EnableRaisingEvents = $true
@@ -50,3 +50,4 @@ function LecturaRegistro {
 
 
 }
+
