@@ -11,7 +11,7 @@ Patrón de múltiples fallos consecutivos (3 o más)
 Usuario afectado por los intentos fallidos
 
 Archivos de Salida Generados:
-output_tarea2.jsonl
+### `output_tarea2.json`
 
 [
   {
